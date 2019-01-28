@@ -4,9 +4,9 @@ int main()
 {
 int n,m;
 printf("enter the number");
-for(i=1;i<=n;i++)
+for(i=1;i<=5;i++)
 {
-m=i*5;
+m=i*n;
 printf("%d",m);
 }
 }
