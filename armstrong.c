@@ -1,13 +1,10 @@
 #include <stdio.h>
 int main()
 {
-    int number, originalNumber, remainder, result = 0;
-
+    int n, originalNumber, remainder, result = 0;
     printf("Enter a three digit integer: ");
-    scanf("%d", &number);
-
-    originalNumber = number;
-
+    scanf("%d", &n);
+    originalNumber = n;
     while (originalNumber != 0)
     {
         remainder = originalNumber%10;
@@ -15,10 +12,10 @@ int main()
         originalNumber /= 10;
     }
 
-    if(result == number)
-        printf("%d is an Armstrong number.",number);
+    if(result == n)
+        printf("%d is an Armstrong number.",n);
     else
-        printf("%d is not an Armstrong number.",number);
+        printf("%d is not an Armstrong number.",n);
 
     return 0;
 }
