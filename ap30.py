@@ -1,0 +1,8 @@
+h=int(input())
+m=int(input())
+h1=int(input())
+m1=int(input())
+h2=abs(h-h1)
+m2=abs(m-m1)
+print("output")
+print(h2,m2)
