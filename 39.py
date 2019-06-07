@@ -1,6 +1,3 @@
-n=[]
-for i in range(0,10):
-    n1=input()
-    n.append(n1)
+n=[1,2,3,4,6,7,5,10,8,9]
 n.sort()
 print(n[-1])
