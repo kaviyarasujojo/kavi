@@ -1,3 +1,2 @@
-n=[1,2,3,4,6,7,5,10,8,9]
-n.sort()
-print(n[-1])
+q=input().split()
+print(max(q,key=int))
