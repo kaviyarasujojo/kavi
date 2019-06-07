@@ -1,7 +1,4 @@
-a=int(input())
-n1=[]
-for i in range(0,a):
-    b=int(input())
-    n1.append(b)
-n1.sort()
-print(n1[0],n1[-1])
+n=int(input())
+b=list(map(int,input().split()))
+b.sort()
+print(b[0],b[-1])
