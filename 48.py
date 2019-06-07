@@ -6,5 +6,5 @@ for i in range(0,n):
     c=int(b[i])
     d=c+d
 avg=d/n
-print(avg)
-
+a=int(avg)
+print(a)
