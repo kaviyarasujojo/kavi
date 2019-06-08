@@ -1,21 +1,21 @@
 n=input()
 if(n=="1"):
-    print("one")
+    print("One")
 elif(n=="2"):
-    print("two")
+    print("Two")
 elif(n=="3"):
-    print("three")
+    print("Three")
 elif(n=="4"):
-    print("four")
+    print("Four")
 elif(n=="5"):
-    print("five")
+    print("Five")
 elif(n=="6"):
-    print("six")
+    print("Six")
 elif(n=="7"):
-    print("seven")
+    print("Seven")
 elif(n=="8"):
-    print("eight")
+    print("Eight")
 elif(n=="9"):
-    print("nine")
+    print("Nine")
 elif(n=="10"):
-    print("ten")
+    print("Ten")
