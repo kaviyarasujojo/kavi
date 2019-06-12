@@ -8,5 +8,5 @@ for i in temp:
         c=c+1
         break
 if(c!=0):
-    print("Yes")
-else:print("No")
+    print("yes")
+else:print("no")
