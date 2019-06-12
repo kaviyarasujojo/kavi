@@ -1,2 +1,2 @@
-c=input()
-print(c)
+p=input()
+print(p)
