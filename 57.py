@@ -1,0 +1,5 @@
+p1,p2=input().split()
+p1=int(p1)
+p2=int(p2)
+temp=list(map(int,input().split()))
+print(temp.count(p2))
